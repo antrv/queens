@@ -307,7 +307,7 @@ void calculate_cumulative_cell_count()
     }
 }
 
-void solve(uint size) // size >= 16
+void solve(uint size)
 {
     board.size = size;
     board.size_minus_1 = size - 1;

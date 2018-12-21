@@ -32,12 +32,6 @@ int main(const int argc, const char *const *const args)
             int value = std::stoi(args[1]);
             if (value >= 1)
             {
-                if (value < 16 && value != 4)
-                {
-                    std::cout << "No solution\n";
-                    return 0;
-                }
-
                 std::clock_t start = clock();
                 solve(value);
                 std::clock_t end = clock();
